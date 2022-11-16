@@ -1,0 +1,91 @@
+using System.Numerics;
+using Raylib_cs;
+using static Raylib_cs.Raylib;
+using static Raylib_cs.Color;
+
+namespace RubiksCube
+{
+    public class Face
+    {
+        private int dimension;
+        private float faceSize;
+        private float tileSize;
+        private float tileSizeRatio;
+        private float tileDepthRatio;
+
+        private Color[,] colors;
+
+        private Vector3 position;
+        private Vector3 direction;
+        private Vector3 tileBoxSize;
+
+        public Face(int dim, int num, float size = 10.0f, float sRatio = 0.9f, float dRatio = 0.1f)
+        {
+            this.dimension = dim;
+            this.faceSize = size;
+            this.tileSize = this.faceSize / this.dimension;
+            this.tileSizeRatio = sRatio;
+            this.tileDepthRatio = dRatio;
+
+            Color color;
+            switch (num)
+            {
+                case 0:
+                    color = RED;
+                    this.direction = Direction.FRONT;
+                    break;
+                case 1:
+                    color = BLUE;
+                    this.direction = Direction.LEFT;
+                    break;
+                case 2:
+                    color = ORANGE;
+                    this.direction = Direction.BACK;
+                    break;
+                case 3:
+                    color = GREEN;
+                    this.direction = Direction.LEFT;
+                    break;
+                case 4:
+                    color = YELLOW;
+                    this.direction = Direction.DOWN;
+                    break;
+                case 5:
+                    color = WHITE;
+                    this.direction = Direction.UP;
+                    break;
+                default:
+                    color = BLACK;
+                    this.direction = new Vector3(0.0f, 0.0f, 0.0f);
+                    break;
+            }
+
+            this.position = this.direction * this.faceSize / 2.0f;
+
+            this.colors = new Color[this.dimension, this.dimension];
+            for (int i = 0; i < this.dimension; i++)
+            {
+                for (int j = 0; j < this.dimension; j++)
+                {
+                    this.colors[i, j] = color;
+                }
+            }
+        }
+
+        public void Draw()
+        {
+
+            for (int i = 0; i < this.dimension; i++)
+            {
+                for (int j = 0; j < this.dimension; j++)
+                {
+                    // Draw each rectangle on the face
+                    DrawCubeV(, // Position of tile
+                            , // Size of the tile face
+                            colors[i, j]); // color of the tile
+                }
+            }
+
+        }
+    }
+}

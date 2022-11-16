@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "W/uN0EmEDe+OV7C8BI7XWyERukAoaJBL6V0/jqNFdGgPHpRsWuAwxJYpfS80cRYimrRYBEMiLAK8gq0P8Ga39A==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/thad2/src/RubiksCube/RubiksCube.csproj",
+  "expectedPackageFiles": [
+    "/home/thad2/.nuget/packages/raylib-cs/4.0.0.1/raylib-cs.4.0.0.1.nupkg.sha512",
+    "/home/thad2/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/thad2/.nuget/packages/microsoft.netcore.app.runtime.win-x64/6.0.5/microsoft.netcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "/home/thad2/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/6.0.5/microsoft.aspnetcore.app.runtime.win-x64.6.0.5.nupkg.sha512",
+    "/home/thad2/.nuget/packages/microsoft.netcore.app.host.win-x64/6.0.5/microsoft.netcore.app.host.win-x64.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

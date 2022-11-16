@@ -1,0 +1,10 @@
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/RubiksCube
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/RubiksCube.dll
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/RubiksCube.deps.json
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/RubiksCube.runtimeconfig.json
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/RubiksCube.pdb
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/Raylib-cs.dll
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/runtimes/linux-x64/native/libraylib.so
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/runtimes/osx-x64/native/libraylib.dylib
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/runtimes/win-x64/native/raylib.dll
+/mnt/c/Users/thad2/src/RubiksCube/bin/Debug/net6.0/publish/runtimes/win-x86/native/raylib.dll

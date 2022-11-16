@@ -1,0 +1,3 @@
+/mnt/c/Users/thad2/src/RubiksCube/bin/release/net6.0/win10-x64/publish/RubiksCube.pdb
+/mnt/c/Users/thad2/src/RubiksCube/bin/release/net6.0/win10-x64/publish/raylib.dll
+/mnt/c/Users/thad2/src/RubiksCube/bin/release/net6.0/win10-x64/publish/RubiksCube.exe

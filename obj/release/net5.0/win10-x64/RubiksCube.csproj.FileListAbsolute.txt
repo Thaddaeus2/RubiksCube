@@ -1,0 +1,5 @@
+/mnt/c/Users/thad2/src/RubiksCube/obj/release/net5.0/win10-x64/RubiksCube.csproj.AssemblyReference.cache
+/mnt/c/Users/thad2/src/RubiksCube/obj/release/net5.0/win10-x64/RubiksCube.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/thad2/src/RubiksCube/obj/release/net5.0/win10-x64/RubiksCube.AssemblyInfoInputs.cache
+/mnt/c/Users/thad2/src/RubiksCube/obj/release/net5.0/win10-x64/RubiksCube.AssemblyInfo.cs
+/mnt/c/Users/thad2/src/RubiksCube/obj/release/net5.0/win10-x64/RubiksCube.csproj.CoreCompileInputs.cache
